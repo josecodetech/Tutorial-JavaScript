@@ -16,7 +16,7 @@ try{
     if (num2 !== 0){
         resultado = num1 / num2;
         console.log(resultado);
-        document.write(`<br/>El resultado es ${resultado}`)
+        document.write(`<br/>El resultado es ${resultado}`);
     } else {
         throw new Error('No puedo dividir por cero');
     }
