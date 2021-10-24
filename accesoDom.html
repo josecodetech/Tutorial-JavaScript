@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h2>Por etiqueta</h2>
+<h2 id="identificador">Por identificador</h2>
+<h2 class="clase">Por clase</h2>
+<div id="contenido">
+    <p class="clase">Contenido</p>
+</div>
+
+<body>
+    <script>
+        let etiqueta = document.getElementsByTagName("h2")[0];
+        let identificador = document.getElementById("identificador");
+        let clase = document.getElementsByClassName("clase")[0];
+        let contenido = document.getElementById("contenido");
+        contenido.innerHTML = etiqueta.innerHTML + "<br/>" +
+            identificador.innerHTML + "<br/>" + clase.innerHTML;
+    </script>
+</body>
+
+</html>
