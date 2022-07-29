@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main {
+    margin: 20 auto;
+    padding: 20px;
+}
+img{
+    width: 25%;
+}
+.mas_grande{
+    font-size: 3rem;
+    color:white;
+}
+.verde {
+    background-color:green;
+}
+.amarillo{
+    background-color:yellow;
+}
+.rojo{
+    background-color: red;
+}
