@@ -9,5 +9,5 @@ function Calcular() {
     inputIVA.value = IVA;
     const total = base + IVA;
     inputTotal.value = total;
-
 }
+
