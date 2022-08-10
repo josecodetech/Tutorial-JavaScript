@@ -1,0 +1,23 @@
+const nombre = 'Jose';
+console.log(nombre);
+const apellido = 'Ojeda';
+console.log(apellido);
+const nombre_completo = nombre + " " + apellido;
+console.log(nombre_completo);
+const mayusculas = nombre_completo.toUpperCase();
+console.log(mayusculas);
+const minusculas = nombre_completo.toLowerCase();
+console.log(minusculas);
+const ultimaLetraNombre = nombre[nombre.length-1];
+console.log(nombre.length)
+console.log(nombre[4]);
+console.log(nombre[3]);
+console.log(ultimaLetraNombre);
+const primeraLetraApellido = apellido[0];
+console.log(primeraLetraApellido);
+frase = "    Esto es una frase de ejemplo    con espacios al inicio, medio y final      ";
+console.log(frase);
+const fraseSinEspacios = frase.trim();
+console.log(fraseSinEspacios);
+const estaEnFrase = fraseSinEspacios.indexOf("Jose");
+console.log(estaEnFrase);
