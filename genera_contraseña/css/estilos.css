@@ -1,0 +1,36 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+h1{
+    color:#333;
+}
+label{
+    display: block;
+    margin: 20px 0 10px;
+}
+input[type="number"]{
+    padding: 10px;
+    font-size: 1.1em;
+    width: 60px;
+}
+button{
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: #007bff;
+    color:whitesmoke;
+    border: none;
+    margin-top: 20px;
+}
+button:hover{
+    background-color: #0056b3;
+}
+#contraseña{
+    margin-top: 20px;
+    font-size: 1.3em;
+    color:#333;
+    word-wrap: break-word;
+}
