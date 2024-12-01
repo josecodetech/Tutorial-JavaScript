@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta a los Reyes Magos</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <div id="carta">
+        <h1>Carta a los Reyes Magos</h1>
+        <p>Queridos Reyes Magos,</p>
+        <p>Mi nombre es <input type="text" id="nombre" placeholder="escribe tu nombre aqui"></p>
+        <p>Este año he sido:
+        <select id="comportamiento">
+            <option value="muy bueno">Muy bueno</option>
+            <option value="bueno">Bueno</option>
+            <option value="no tan bueno">No tan bueno</option>
+        </select>
+    </p>
+    <p>Mis deseos para esta navidad son:</p>
+    <textarea id="deseos" placeholder="escribe aqui tus deseos..."></textarea>
+    <p>Gracias por todo lo que hacen por nosotros. Hasta pronto!</p>
+    <button onclick="imprimirCarta()">Imprimir Carta</button>
+    <script src="./js/script.js"></script>
+    </div>
+</body>
+</html>

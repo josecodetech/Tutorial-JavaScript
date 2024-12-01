@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:20px;
+    background-color: #f0f0f8;
+}
+#carta{
+    width: 80%;    
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+}
+h1{
+    text-align: center;
+    color:#333;
+}
+textarea, input, select{
+    width: 100%;
+    font-size: 1em;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius:5px;
+}
+textarea{
+    height:250px;
+}
+button{
+    font-size: 1em;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007bff;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #0056b3;
+}
+@media print{
+    button{
+        display:none;
+    }
+}
